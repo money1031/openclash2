@@ -1,0 +1,21 @@
+# 内容：自定义国内直连地址
+# 域名关键字匹配
+DOMAIN-KEYWORD,tvyb01
+DOMAIN-KEYWORD,tvyb02
+DOMAIN-KEYWORD,tvyb03
+DOMAIN-KEYWORD,kkwan
+DOMAIN-KEYWORD,pcdn
+DOMAIN-KEYWORD,ncat4
+
+# 域名后缀匹配
+DOMAIN-SUFFIX,tvyb01.com
+DOMAIN-SUFFIX,tvyb02.com
+DOMAIN-SUFFIX,tvyb03.com
+DOMAIN-SUFFIX,kkwan.top
+DOMAIN-SUFFIX,8c0bd2d20159.com
+DOMAIN-SUFFIX,91jq7.jqjq325.xyz
+DOMAIN-SUFFIX,sjd45.com
+
+
+# 全域名匹配
+DOMAIN,tagss04.pro
