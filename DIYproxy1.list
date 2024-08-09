@@ -16,7 +16,7 @@ DOMAIN-SUFFIX,ipleak.net
 DOMAIN-SUFFIX,ipcheck.ing
 DOMAIN-SUFFIX,ipify.org
 DOMAIN-SUFFIX,openwrt.ai
-
+DOMAIN-SUFFIX,keeflys.com
 
 # 全域名匹配
 DOMAIN,myip.ipip.net
