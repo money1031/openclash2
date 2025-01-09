@@ -19,6 +19,7 @@ DOMAIN-SUFFIX,ipify.org
 DOMAIN-SUFFIX,openwrt.ai
 DOMAIN-SUFFIX,keeflys.com
 DOMAIN-SUFFIX,missav.ws
+DOMAIN-SUFFIX,surrit.com
 
 # 全域名匹配
 DOMAIN,myip.ipip.net
@@ -27,6 +28,7 @@ DOMAIN,www.ganjingworld.com
 DOMAIN,dl.openwrt.ai
 DOMAIN,xn--4gqx1hgtfdmt.com
 DOMAIN,missav.ws
+DOMAIN,surrit.com
 
 # ip段匹配
 IP-CIDR,1.0.0.1/32
