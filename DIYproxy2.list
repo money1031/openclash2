@@ -9,6 +9,7 @@ DOMAIN-KEYWORD,qualified
 DOMAIN-KEYWORD,ganjingworld
 DOMAIN-KEYWORD,ganjing
 DOMAIN-KEYWORD,xn--4gqx1hgtfdmt
+DOMAIN-KEYWORD,missav
 
 # 域名后缀匹配
 DOMAIN-SUFFIX,ipip.net
@@ -17,6 +18,7 @@ DOMAIN-SUFFIX,ipcheck.ing
 DOMAIN-SUFFIX,ipify.org
 DOMAIN-SUFFIX,openwrt.ai
 DOMAIN-SUFFIX,keeflys.com
+DOMAIN-SUFFIX,missav.ws
 
 # 全域名匹配
 DOMAIN,myip.ipip.net
@@ -24,6 +26,7 @@ DOMAIN,one.one.one.one
 DOMAIN,www.ganjingworld.com
 DOMAIN,dl.openwrt.ai
 DOMAIN,xn--4gqx1hgtfdmt.com
+DOMAIN,missav.ws
 
 # ip段匹配
 IP-CIDR,1.0.0.1/32
