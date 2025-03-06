@@ -8,7 +8,6 @@ DOMAIN-KEYWORD,cloudflare
 DOMAIN-KEYWORD,qualified
 DOMAIN-KEYWORD,ganjingworld
 DOMAIN-KEYWORD,ganjing
-DOMAIN-KEYWORD,xn--4gqx1hgtfdmt
 DOMAIN-KEYWORD,missav
 
 # 域名后缀匹配
@@ -26,7 +25,6 @@ DOMAIN,myip.ipip.net
 DOMAIN,one.one.one.one
 DOMAIN,www.ganjingworld.com
 DOMAIN,dl.openwrt.ai
-DOMAIN,xn--4gqx1hgtfdmt.com
 DOMAIN,missav.ws
 DOMAIN,surrit.com
 
