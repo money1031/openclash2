@@ -1,5 +1,6 @@
 # 内容：自定义国外代理地址
 # 域名关键字匹配
+DOMAIN-KEYWORD,msn
 DOMAIN-KEYWORD,edns
 DOMAIN-KEYWORD,ip-api
 DOMAIN-KEYWORD,ipip
@@ -14,6 +15,7 @@ DOMAIN-KEYWORD,missav
 DOMAIN-KEYWORD,xn--4gqx1hgtfdmt
 
 # 域名后缀匹配
+DOMAIN-SUFFIX,scorecardresearch.com
 DOMAIN-SUFFIX,incolumitas.com
 DOMAIN-SUFFIX,blackberry.com
 DOMAIN-SUFFIX,twilio.com
