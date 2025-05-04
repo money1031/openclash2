@@ -1,8 +1,5 @@
 # 内容：自定义国外代理地址
 # 域名关键字匹配
-DOMAIN-KEYWORD,msn
-DOMAIN-KEYWORD,edns
-DOMAIN-KEYWORD,ip-api
 DOMAIN-KEYWORD,ipip
 DOMAIN-KEYWORD,ipleak
 DOMAIN-KEYWORD,ipcheck
@@ -15,30 +12,21 @@ DOMAIN-KEYWORD,missav
 DOMAIN-KEYWORD,xn--4gqx1hgtfdmt
 
 # 域名后缀匹配
-DOMAIN-SUFFIX,scorecardresearch.com
-DOMAIN-SUFFIX,incolumitas.com
-DOMAIN-SUFFIX,blackberry.com
-DOMAIN-SUFFIX,twilio.com
-DOMAIN-SUFFIX,surfsharkdns.com
 DOMAIN-SUFFIX,ipip.net
 DOMAIN-SUFFIX,ipleak.net
 DOMAIN-SUFFIX,ipcheck.ing
 DOMAIN-SUFFIX,ipify.org
 DOMAIN-SUFFIX,openwrt.ai
-DOMAIN-SUFFIX,keeflys.com
 DOMAIN-SUFFIX,missav.ws
-DOMAIN-SUFFIX,surrit.com
 DOMAIN-SUFFIX,xn--4gqx1hgtfdmt.com
 DOMAIN-SUFFIX,downloadhelper.net
 
 # 全域名匹配
-DOMAIN,ping-atlas-cfosspeed.com
 DOMAIN,myip.ipip.net
 DOMAIN,one.one.one.one
 DOMAIN,www.ganjingworld.com
 DOMAIN,dl.openwrt.ai
 DOMAIN,missav.ws
-DOMAIN,surrit.com
 DOMAIN,xn--4gqx1hgtfdmt.com
 DOMAIN,downloadhelper.net
 
