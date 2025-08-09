@@ -10,6 +10,7 @@ DOMAIN-KEYWORD,ganjingworld
 DOMAIN-KEYWORD,ganjing
 DOMAIN-KEYWORD,missav
 DOMAIN-KEYWORD,xn--4gqx1hgtfdmt
+DOMAIN-KEYWORD,keeflys
 
 # 域名后缀匹配
 DOMAIN-SUFFIX,ipip.net
@@ -20,6 +21,7 @@ DOMAIN-SUFFIX,openwrt.ai
 DOMAIN-SUFFIX,missav.ws
 DOMAIN-SUFFIX,xn--4gqx1hgtfdmt.com
 DOMAIN-SUFFIX,downloadhelper.net
+DOMAIN-SUFFIX,keeflys.com
 
 # 全域名匹配
 DOMAIN,myip.ipip.net
@@ -33,3 +35,4 @@ DOMAIN,downloadhelper.net
 # ip段匹配
 IP-CIDR,1.0.0.1/32
 IP-CIDR,1.1.1.1/32
+
