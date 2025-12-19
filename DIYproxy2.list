@@ -40,8 +40,9 @@ DOMAIN,downloadhelper.net
 DOMAIN,typecho.thomass.qzz.io
 
 # ip段匹配
-IP-CIDR,1.0.0.1/32
-IP-CIDR,1.1.1.1/32
+# IP-CIDR,1.0.0.1/32
+# IP-CIDR,1.1.1.1/32
+
 
 
 
