@@ -1,0 +1,725 @@
+108.162.198.138:443#JP 4431
+108.162.198.49:443#JP 4432
+108.162.198.231:443#JP 4433
+108.162.198.190:443#JP 4434
+172.64.229.103:443#JP 4435
+172.64.229.21:2053#JP 20531
+108.162.198.237:2053#JP 20532
+172.64.229.10:2053#JP 20533
+172.64.229.55:2053#JP 20534
+108.162.198.202:2053#JP 20535
+162.159.44.174:2083#JP 20831
+108.162.198.136:2083#JP 20832
+162.159.38.252:2083#JP 20833
+108.162.198.25:2083#JP 20834
+162.159.45.105:2083#JP 20835
+108.162.198.2:2087#JP 20871
+108.162.198.19:2087#JP 20872
+108.162.198.144:2087#JP 20873
+108.162.198.113:2087#JP 20874
+108.162.198.45:2087#JP 20875
+108.162.198.243:8443#JP 84431
+108.162.198.61:8443#JP 84432
+108.162.198.144:8443#JP 84433
+108.162.198.133:8443#JP 84434
+108.162.198.242:8443#JP 84435
+173.245.59.217:8443#SG 84431
+104.18.32.130:8443#SG 84432
+198.41.223.229:8443#SG 84433
+172.64.146.52:8443#SG 84434
+172.64.228.233:8443#SG 84435
+173.245.58.186:443#SG 4431
+172.64.144.54:443#SG 4432
+198.41.223.112:443#SG 4433
+173.245.59.72:443#SG 4434
+198.41.223.242:443#SG 4435
+8.39.125.121:2053#SG 20531
+162.159.40.104:2053#SG 20532
+8.39.125.236:2053#SG 20533
+104.18.46.47:2053#SG 20534
+104.18.33.95:2053#SG 20535
+173.245.59.248:2083#SG 20831
+8.35.211.164:2083#SG 20832
+198.41.223.24:2083#SG 20833
+173.245.58.170:2083#SG 20834
+104.18.36.136:2083#SG 20835
+8.39.125.73:2087#SG 20871
+172.64.228.120:2087#SG 20872
+172.64.144.213:2087#SG 20873
+173.245.58.28:2087#SG 20874
+172.64.144.249:2087#SG 20875
+162.159.153.24:8443#DE 84431
+104.26.14.166:8443#DE 84432
+104.26.14.144:8443#DE 84433
+172.67.71.102:8443#DE 84434
+172.67.65.184:8443#DE 84435
+172.67.65.242:8443#DE 84436
+162.159.153.39:8443#DE 84437
+104.26.13.139:8443#DE 84438
+172.67.73.251:8443#DE 84439
+104.19.34.245:8443#US 84430
+104.19.51.156:8443#US 84431
+104.19.48.191:8443#US 84432
+104.19.40.151:8443#US 84433
+104.19.63.104:8443#US 84434
+104.19.43.25:8443#US 84435
+104.19.36.97:8443#US 84436
+104.19.45.18:8443#US 84437
+104.19.51.122:8443#US 84438
+104.19.54.67:8443#US 84439
+
+vless://44740b00-102a-4bff-9fc3-85c345fa0033@edge.thomass.dpdns.org:443?security=tls&type=ws&host=edge.thomass.dpdns.org&sni=edge.thomass.dpdns.org&path=%2F&encryption=none&allowInsecure=1#edgetunnel
+
+OneCloud MAC 0C:EC:8D:23:63:E9
+
+ROG_Phone7
+https://surrit.com/1846b7aa-c0cc-488a-a0e5-a00ddb44fd1e/playlist.m3u8
+https://surrit.com/1846b7aa-c0cc-488a-a0e5-a00ddb44fd1e/playlist.m3u8
+
+docker pull teddysun/xray
+
+docker run -d --name xray --network host --restart unless-stopped -v /mnt/sata1-4/xray:/etc/xray teddysun/xray
+
+
+http://192.168.1.253:10086/entrance
+df -h
+/dev/loop0记住
+fdisk -l
+fdisk /dev/sda
+p
+d
+2
+n
+2
+66048
++3.5g
+n
+w
+blkid
+91f55d8d-de32-4b45-a234-47e47cb20fd7
+vim /boot/grub/grub.cfg
+df -h
+
+losetup
+losetup -f -o 109510656 /dev/sda2
+
+mount /dev/loop1 /mnt
+umount /dev/loop1
+
+lsblk -f
+
+resize.f2fs -f /dev/loop1
+
+opkg install lsblk fdisk resize2fs f2fs-tools losetup
+
+
+e91172bb18c64848adf3d47cb46fc553
+
+eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI0ZGUyMzFhNmU5Y2E0Y2JiYmI3MjNjOTlhN2U3MjlmYyIsImF1ZCI6Ijc2OTE3Y2NjY2Q0NDQxYzM5NDU3YTA0ZjYwODRmYjJmIiwiZXhwIjoxNzI4MjAxOTM1LCJpYXQiOjE3MjA0MjU5MzUsImp0aSI6IjViZDZkM2NhY2I0NzQ1YjY5YWUzNjA4M2RiOWQ4MjVhIn0.tXsGe9OHLl1FOV2OJdvo60jkFMf8F_ysz57CSMXDv6H5H44GlQlbdHpkKRtSsQWppLR2AQHx_zlPIn49inDM3Q
+
+6688ba1b03261b1389234ea590f3c15a59cccdf9
+
+
+
+wget -qO op.sh https://cafe.cpolar.cn/wkdaily/zero3/raw/branch/main/zero3/op.sh && chmod +x op.sh && ./op.sh
+
+Tinder bumble 探探
+
+
+
+
+
+firefox 57以后很多插件不支持了，ubuntu16自带火狐版本59，想换回56.
+
+1.下载想换回的版本
+
+https://ftp.mozilla.org/pub/mozilla.org/firefox/releases/
+
+2.解压并移动文件
+
+tar -xjf firefox*.tar.bz2
+解压后，将会有一个新的 Firefox 文件出现在下载文件夹中。这其中包含了所有的  的文件和可执行文件。
+
+Ubuntu查看版本信息
+
+libart-2.0-2 libbonobo2-0 libbonobo2-common libbonoboui2-0
+  libbonoboui2-common libfakekey0 libglade2-0 libgnome-2-0 libgnome2-common
+  libgnomecanvas2-0 libgnomecanvas2-common libgnomeui-0 libgnomeui-common
+  libgnomevfs2-0 libgnomevfs2-common libjpeg-turbo-progs liborbit-2-0
+  libunique-1.0-0 miscfiles
+
+docker run -d \
+--name ubuntu \
+--shm-size=1g \
+-p 6901:6901 \
+-e VNC_PW=OpenUbuntu \
+-u root \
+--restart always \
+colinchang/ubuntu-desktop
+
+/mnt:/mnt:rslave
+
+做网页开发，IE是不可忽视的用户群体，所以需要在Linux下也有IE才能方便调试，下面是安装步骤：
+
+首先准备一些软件：
+/etc/apt/sources.list
+apt-get install playonlinux
+
+sudo apt-get update
+
+sudo apt-get install wine cabextract
+
+然后下载自动安装脚本：
+
+wget http://www.tatanka.com.br/ies4linux/downloads/ies4linux-latest.tar.gz
+
+解压缩，进入目录：
+
+tar zxvf ies4linux-latest.tar.gz
+
+cd ies4linu-*
+
+接下来会出现图形的安装界面，根据提示一步步进行就可以了。
+
+目前IEs4Linux的最新版本还不能够支持IE7，这个是受到WINE限制的，期待什么时候能够有Linux下的IE7，或者IE\FF都开始支持标准。
+
+
+docker run -d --name ubuntu \
+    --dns=223.5.5.5 -u=0:0 \
+    -v=/mnt:/mnt:rslave \
+    --shm-size=512m \
+    -p 6901:6901 \
+    -e VNC_PW=password \
+    -e VNC_USE_HTTP=0 \
+    --restart unless-stopped \
+    linkease/desktop-ubuntu-full-amd64
+
+
+默认<用户名:kasm_user 密码:password> 
+
+再在记事本中粘贴以下代码，在截图的箭头处（url=后面）粘贴网址即可：
+
+<html>
+
+<head>
+
+<meta http-equiv="content-language" content="zh-cn">
+
+<meta http-equiv="content-type" content="text/html; charset=gb2312">
+
+<meta http-equiv="refresh" content="0; url=">
+
+</html>
+
+https://s1.byte11.com/api/v1/client/subscribe?token=87914dc83c3296581653d752ca01cb6c
+https://aiai.seeyoumoney.xyz/9c5d286d-dfd0-494b-b06e-bda2eac907d2?clash
+
+
+1.https://registry.docker-cn.com
+2.https://hub.docker.com
+3.https://docker.m.daocloud.io
+4.https://dockerproxy.com
+
+
+
+Chai123456.
+元明宽带资料
+超密同User密码（tkijr）
+OBLFTTH102624326
+057484879401
+wifi密码（iznreqx4）
+
+docker run -d --net host --init --privileged --restart=always --name=lsy_docker \
+-e ksc_supplier_code='92101' \
+-e ksc_refer='ruiyun_node' \
+-e ksc_machine_code='lsyK18000_a0369f1925f5' \
+-e ksc_datadir='/data/ksc1' \
+-v /mnt/sata2/do:/data/ksc1 \
+lsycloud/iaas:v1
+
+lsyK18000_a0369f1925f5
+
+
+net use * /del /y
+
+
+docker images
+
+docker save -o wxedge.tar onething1/wxedge:latest
+
+find / -name wxedge.tar 2>/dev/null
+
+docker load -i wxedge.tar
+
+(docker export)
+(docker import)
+
+src/gz openwrt_core https://downloads.openwrt.org/releases/22.03/targets/x86/64/packages
+src/gz openwrt_base https://downloads.openwrt.org/releases/22.03/packages/x86_64/base
+src/gz openwrt_luci https://downloads.openwrt.org/releases/22.03/packages/x86_64/luci
+src/gz openwrt_packages https://downloads.openwrt.org/releases/22.03/packages/x86_64/packages
+src/gz openwrt_routing https://downloads.openwrt.org/releases/22.03/packages/x86_64/routing
+src/gz openwrt_telephony https://downloads.openwrt.org/releases/22.03/packages/x86_64/telephony
+
+src/gz openwrt_packages https://dl.openwrt.ai/packages-23.05/x86_64/packages
+src/gz openwrt_base https://dl.openwrt.ai/packages-23.05/x86_64/base
+src/gz openwrt_luci https://dl.openwrt.ai/packages-23.05/x86_64/luci
+src/gz openwrt_routing https://dl.openwrt.ai/packages-23.05/x86_64/routing
+src/gz openwrt_telephony https://dl.openwrt.ai/packages-23.05/x86_64/telephony
+
+src/gz openwrt_kiddin9 https://dl.openwrt.ai/packages-23.05/x86_64/kiddin9
+
+https://registry.docker-cn.com
+
+
+dmesg|grep -i wifi
+
+1)    Windows下面查看KMS服务器是否已经启用自动激$#@#活：
+打开命令行cmd.exe, 输入“nslookup   -type=srv   _vlmcs._tcp.lan”， 应该能返回正确结果。Ping域名应该也能ping通。如图：
+
+如何返回的域名ping不通，可以直接使用返回的IP地址来激$#@#活，
+或者在openwrt路由器的/etc/hosts下面增加一行：
+#填写你的lan的IP地址
+192.168.1.1        OpenWrt   OpenWrt.lan       #ip地址和主机名更改为上述的nslookup命令的返回结果，也即路由器的名字和IP地址
+
+2)    激%$#活windows
+管理员运行cmd.exe命令行窗口：
+slmgr /ckms    //清除原来的激@#$活信息
+slmgr /ipk   xxxx…xx    //vol版的序列号
+slmgr /spri
+slmgr /act-type 2
+slmgr /skms  OpenWrt.lan   //上步查询命令返回的域名，这里使用IP地址也可以
+slmgr /ato                //激%$活
+slmgr /dlv                //显示激@#$活信息
+
+3)    激*#@活office2019
+如果安装了office$#2019后，激$#@#活信息显示的仍然是2016，这如下处理：
+a) 以管理员身份运行cmd.exe, 进入office 2019安装目录
+  通常为："C:\Program Files\Microsoft Office\Office16",
+  该目录下存在文件 OSPP.VBS 等。
+
+b) 查找office 2016的key
+   运行命令：   "cscript ospp.vbs    /dstatus", 在一大堆的输出中，找到下述的两行:
+  "LICENSE NAME: Office 16"
+  "Last 5 characters of installed product key: WFG99" 8MBCX KQC6G 8FJJK PKD2B
+   记住这个office 2016对应的部分key字符 "WFG99" (可能你的电脑显示不同)
+
+c) 删除office #$@2016的key
+   运行命令：   "cscript ospp.vbs   /unpkey:WFG99"
+
+d) 安装office %$@2019的key:
+   运行命令： "cscript ospp.vbs   /inpkey:NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP"
+
+CNYC3-BD9YK-C6J49-YC86V-GCRXQ
+
+e) 激$#@#活office $#@#2019
+   (前提：需要你的本机或者网络上有KMS激$#@#活服务器,例如vlmcsd)
+   运行命令：
+    cscript ospp.vbs  /sethst:OpenWrt.lan     //或者IP地址
+cscript ospp.vbs /act
+   显示激$#@#活信息: cscript ospp.vbs   /dstatus
+"C:\Program Files (x86)\Microsoft Office\Office16"
+
+@echo off
+
+SET OfficePath=%ProgramFiles%\Microsoft Office
+if not exist "%OfficePath%\root\Licenses16" SET OfficePath=%ProgramFiles(x86)%\Microsoft Office
+if not exist "%OfficePath%\root\Licenses16" (
+	echo Could not find the license files for Office 2019!
+	pause
+	goto :eof
+)
+
+echo Press Enter to start VL-Conversion...
+echo.
+pause
+echo.
+cd /D "%SystemRoot%\System32"
+
+	cscript "%OfficePath%\Office16\ospp.vbs" /inslic:"%OfficePath%\root\Licenses16\ProPlus2019VL_KMS_Client_AE-ppd.xrm-ms"
+	cscript "%OfficePath%\Office16\ospp.vbs" /inslic:"%OfficePath%\root\Licenses16\ProPlus2019VL_KMS_Client_AE-ul.xrm-ms"
+	cscript "%OfficePath%\Office16\ospp.vbs" /inslic:"%OfficePath%\root\Licenses16\ProPlus2019VL_KMS_Client_AE-ul-oob.xrm-ms"
+
+	cscript "%OfficePath%\Office16\ospp.vbs" /inslic:"%OfficePath%\root\Licenses16\ProjectPro2019VL_KMS_Client_AE-ppd.xrm-ms"
+	cscript "%OfficePath%\Office16\ospp.vbs" /inslic:"%OfficePath%\root\Licenses16\ProjectPro2019VL_KMS_Client_AE-ul-oob.xrm-ms"
+	cscript "%OfficePath%\Office16\ospp.vbs" /inslic:"%OfficePath%\root\Licenses16\ProjectPro2019VL_KMS_Client_AE-ul.xrm-ms"
+
+	cscript "%OfficePath%\Office16\ospp.vbs" /inslic:"%OfficePath%\root\Licenses16\VisioPro2019VL_KMS_Client_AE-ppd.xrm-ms"
+	cscript "%OfficePath%\Office16\ospp.vbs" /inslic:"%OfficePath%\root\Licenses16\VisioPro2019VL_KMS_Client_AE-ul-oob.xrm-ms"
+	cscript "%OfficePath%\Office16\ospp.vbs" /inslic:"%OfficePath%\root\Licenses16\VisioPro2019VL_KMS_Client_AE-ul.xrm-ms"
+
+	cscript "%OfficePath%\Office16\ospp.vbs" /inslic:"%OfficePath%\root\Licenses16\SkypeforBusiness2019VL_KMS_Client_AE-ppd.xrm-ms"
+	cscript "%OfficePath%\Office16\ospp.vbs" /inslic:"%OfficePath%\root\Licenses16\SkypeforBusiness2019VL_KMS_Client_AE-ul.xrm-ms"
+	cscript "%OfficePath%\Office16\ospp.vbs" /inslic:"%OfficePath%\root\Licenses16\SkypeforBusiness2019VL_KMS_Client_AE-ul-oob.xrm-ms"
+
+	cscript "%OfficePath%\Office16\ospp.vbs" /inslic:"%OfficePath%\root\Licenses16\client-issuance-bridge-office.xrm-ms"
+	cscript "%OfficePath%\Office16\ospp.vbs" /inslic:"%OfficePath%\root\Licenses16\client-issuance-root.xrm-ms"
+	cscript "%OfficePath%\Office16\ospp.vbs" /inslic:"%OfficePath%\root\Licenses16\client-issuance-root-bridge-test.xrm-ms"
+	cscript "%OfficePath%\Office16\ospp.vbs" /inslic:"%OfficePath%\root\Licenses16\client-issuance-stil.xrm-ms"
+	cscript "%OfficePath%\Office16\ospp.vbs" /inslic:"%OfficePath%\root\Licenses16\client-issuance-ul.xrm-ms"
+	cscript "%OfficePath%\Office16\ospp.vbs" /inslic:"%OfficePath%\root\Licenses16\client-issuance-ul-oob.xrm-ms"
+	cscript "%OfficePath%\Office16\ospp.vbs" /inslic:"%OfficePath%\root\Licenses16\pkeyconfig-office.xrm-ms"
+
+:eof
+
+
+
+Office2019永久激活码：PDNR7-72Y6J-WQFFF-GH9FX-KQC6G
+官网地址下载https://setup.office.com/
+
+win10/win11专业版激活码：BNFGT PXDFK 2DX8Q XVPTX P373B
+激活步骤：
+点击【开始  —  设置  —  更新与安全  — 激活】— 点更改产品
+
+错误代码说明：
+ee2 ee7 是网络拥堵多输入几次 1023是输错 
+
+
+【超级会员V2】通过百度网盘分享的文件：仓库管理软件.e…等4个文件
+链接:https://pan.baidu.com/s/1r2IewUY4gRw_hvMV4esXtg
+提取码:4zff
+复制这段内容打开「百度网盘APP 即可获取」
+
+《仓库管理软件》
+厦仔链接：https://pan.baidu.com/s/1Doshug9IKiazeypSy1DuFA
+提取码：ygaf
+解压软件点 ScDepot 运行
+密码是空密码，直接点确定
+
+软件不升级
+二《仓管进销存软件》
+ 链接:https://bbb888.lanzoux.com/b00nom40j
+
+密码:888
+
+北京大学	[2001:da8:201:1512::a269:83a0]	2022-3-6
+中国科学院大学	[2400:dd01:103a:4041::101]	2022-3-6
+
+wan 40
+wan6 1024
+
+vwan1 41
+vwan1_6 1025
+
+vwan2 42
+vwan2_6 1026
+
+vwan3 43
+vwan3_6 1027
+
+vwan4 44
+vwan1_6 1028
+
+先输入【lsblk】查看可用存储设备、磁盘分区等相关信息，找到你的存储设备名称
+2、使用【mkdir /mnt/disk】命令，在存储挂载设备目录中创建一个文件夹用于挂载硬盘。
+
+3、使用【mount /dev/sda1 /mnt/disk】(sda1换成你的硬盘名称)命令挂载硬盘。
+
+4、使用【cd /mnt/disk】和【ls】判断是否挂载成功。
+
+5、硬盘挂载成功后，重启系统后会失效，所以需要设置开机启动自动挂载硬盘。
+
+6、输入【blkid /dev/你的硬盘名称】找到硬盘UUID和文件系统格式。
+
+7、根据硬盘信息制作出开机硬盘自动挂载命令【UUID=你的硬盘UUID /mnt/disk 文件系统格式 defaults 0 0】。
+
+8、输入【vi /etc/fstab】命令编辑磁盘挂载配置文件，将上述命令添加到文件中。
+
+
+vi编辑命令使用方法：
+
+使用键盘方向键调整光标位置。
+
+按下Insert键，可以见到窗口左下角有“Insert”字样，表示当前为插入编辑状态。
+
+编辑完内容后，按下Esc键，输入“:wq”再按回车可以保存并退出编辑，而输入“:q!”回车则取消保存。
+
+UUID=9bf50ff2-679e-4cc2-a403-7cd38df45b15 /media/wxedge_storage ext4 defaults 0 0
+
+输入【mount -a】命令测试硬盘是否挂载成功（如果报错千万不要重启，会导致进不了系统）。
+
+DDNSTO
+docker run -d --name=ddnsto --restart always --network host -e TOKEN=b6738a59-6d46-407f-b914-9154ba6d1419 -e DEVICE_IDX=0 linkease/ddnsto:3.0.0
+
+docker run -d --net=host --restart always --name yykjonething registry.cn-hangzhou.aliyuncs.com/yunyikj/onething:1.2
+
+1. 运行容器：
+# 请将dockerhub镜像仓库地址替换为 images-cluster.xycloud.com
+# docker pull  images-cluster.xycloud.com/wxedge/wxedge:latest
+docker run -d --name=wxedge --restart=always --privileged --net=host --tmpfs /run --tmpfs /tmp -v 磁盘路径:/storage:rw    images-cluster.xycloud.com/wxedge/wxedge:latest
+必选参数说明：
+--privileged 必须打开（爱快docker不支持）。
+--net 目前只支持host（推荐）和macvlan两种网络模式（不熟悉docker和网络知识的用户不要尝试macvlan，非常复杂！）。
+“磁盘路径”是磁盘的目录，请根据自己实际磁盘目录更改，必须挂载到容器内的/storage目录，推荐磁盘是ext4文件系统，至少需要50G以上的空间，建议是固态硬盘。
+可选参数说明（建议新手都不要设置）：
+-e LISTEN_ADDR="0.0.0.0:28888" 支持设置绑定页面的监听地址和端口，监听全地址设置-e LISTEN_ADDR=":28888"，默认监听全地址18888端口。多开容器也可以参考用该参数，比如容器A使用参数-e LISTEN_ADDR=":18888"，容器B使用参数 -e LISTEN_ADDR=":28888"（已经实现同一业务可多次添加，不建议多开容器）
+-v 磁盘路径:/var/lib/containerd 如果系统盘较小时，可以增加该参数修改安装路径，
+注意“磁盘路径”修改成自己的磁盘目录。
+2. 升级容器：
+①、停止容器
+docker stop wxedge
+②、删除容器
+docker rm wxedge
+③、删除镜像
+docker rmi onething1/wxedge
+tips:镜像名字：可以通过执行docker ps或者docker images 查看镜像名，并执行删除镜像操作
+
+docker run -d --name=wxedge --restart=always --privileged --net=host  --tmpfs /run --tmpfs /tmp -v /mnt/sata2-1/wxedge1:/storage:rw -e NIC=br-lan  -e LISTEN_ADDR="0.0.0.0:19928"    images-cluster.xycloud.com/wxedge/wxedge:latest
+
+docker run -d --name=wxedge1 --restart=always --privileged --net=host  --tmpfs /run --tmpfs /tmp -v /mnt/sata2-1/wxedge1:/storage:rw  registry.hub.docker.com/onething1/wxedge
+LISTEN_ADDR=0.0.0.0:19928
+NIC=pppoe-vwan1
+
+docker run -d --name=wxedge2 --restart=always --privileged --net=host  --tmpfs /run --tmpfs /tmp -v /mnt/data_sdb2/wxedge2:/storage:rw  registry.hub.docker.com/onething1/wxedge
+LISTEN_ADDR=0.0.0.0:18882
+NIC=pppoe-vwan2
+
+
+docker run -d --name=wxedge3 --restart=always --privileged --net=host  --tmpfs /run --tmpfs /tmp -v /mnt/data_sdb1/wxedge3:/storage:rw  registry.hub.docker.com/onething1/wxedge
+LISTEN_ADDR=0.0.0.0:18883
+NIC=pppoe-vwan3
+
+-e NIC=pppoe-vwan1 有多网卡多线路时，可以使用该参数指定路由网卡，不配置会自动选默认路由网卡，如果是openwrt系统，可以使用-e NIC=br-lan，业务申请到和局域网同一个网段的IP。
+
+-e REC=false 第一次安装设置为false时，不会启动默认任务，默认为true，仅第一次安装有效。
+
+-e LISTEN_ADDR="0.0.0.0:28888" 支持设置绑定页面的监听地址和端口，监听全地址设置-e LISTEN_ADDR=":28888"，默认监听全地址18888端口。多开容器也可以参考用该参数，比如容器A使用参数-e LISTEN_ADDR=":18888"，容器B使用参数 -e LISTEN_ADDR=":28888"（已经实现同一业务可多次添加，不建议多开容器）
+
+-v 磁盘路径:/var/lib/containerd 如果系统盘较小时，可以增加该参数修改安装路径，注意“磁盘路径”修改成自己的磁盘目录。
+
+
+蓝山金山云
+
+docker run -d --net host --init --privileged --restart=always --name=lsy_docker \
+-e ksc_supplier_code='92101' \
+-e ksc_refer='ruiyun_node' \
+-e ksc_machine_code='lsyK18000_000c29b64b8b' \
+-e ksc_datadir='/data/ksc1' \
+-v /mnt/scsi3-1/lsy_cloud:/data/ksc1 \
+lsycloud/iaas:v1
+
+
+
+
+
+
+
+易有云
+docker run -d \
+    --network host \
+    --name linkease \
+    --restart unless-stopped \
+    -v /root/linkease-data:/linkease-data \
+    -v /root/linkease-config:/linkease-config \
+    -v /etc/localtime:/etc/localtime:ro \
+    -e PUID=0 \
+    -e PGID=0 \
+    linkease/linkease:latest
+
+C8:3A:35:21:8B:88-腾达无线拓展
+D4:B7:09:A7:31:9C-中兴路由器
+04:FA:83:1E:C8:A3-海尔冰箱
+D4:4B:B6:18:A9:7F-天猫精灵
+E0:DC:FF:FC:66:E7-小米9Pro5G
+74:56:3C:30:ED:DA-技嘉电脑
+42:BA:70:C1:FA:11-柴柴Mate40
+
+https://www.kkwan.top/
+ 永久VIP
+Devil1993127
+open88415470
+续费激活码 5F99-5964-5D84-6ACD-CC8F
+网站充值卡	6660-6C26	
+游戏启动码	FOORUWGTMUHWQJN
+KKWAN.VIP21FK22112421303U0WQ
+
+
+1630水乡邻里电信500Mbps
+GPON SN:ZTEGC4F2AD9D
+宽带账号密码057483872750（315993）
+光猫注册码ONBFTTH102292988
+无线AdminChinaNet
+密码523343732@qq.com
+终端地址:192.168.1.1
+管理账号（同超管）
+账号密码useradmin（tfy9b）
+后改 芯德V2802RH 2.5G 光猫
+访问地址192.168.1.1
+用户名密码：admin（stdONUi0i）
+后改用户名密码：admin (hexiaotianSKY@126.com)
+
+方糖微信推送:SCT195431TLwzJuNQlO7pYjmKk6l9crIaj
+
+istoreOS软路由管理访问端口:5233
+
+ipv6同
+
+软路由内网地址:192.168.100.1
+用户名密码 root（hexiaotianSKY@126.com）
+
+远程SSH端口7681
+用户名密码 root（hexiaotianSKY@126.com）
+
+Samba共享账号密码devil(open88415470)
+
+Jellyfin端口8096
+管理账户密码: root (hexiaotianSKY@126.com)
+访客账户密码: chai (288288)
+
+易有云文件管理端口8897
+
+qBittorrent远程下载端口:1018
+账号密码: admin (open88415470)
+
+
+邱隘504新的电信自己的（500Mbps）
+宽带账号密码057484517751（170762）
+光猫无无线，桥接路由器
+终端地址:192.168.1.1
+X86-512G管理地址192.168.1.2:8080
+设备激活码X86W7AVGtDrMRTiBsSRjuRN
+微信方糖推送：SCT196788TIosr2U3cVLlW4ikJErSUoOjw
+
+
+
+五乡82号（原来邱隘504老爸主宽迁过去的）200Mbps
+方糖：SCT196788TIosr2U3cVLlW4ikJErSUoOjw
+软路由内网地址:192.168.100.1
+用户名密码 root（hexiaotianSKY@126.com）
+宽带账号密码nbda03679144 (496321)
+光猫注册码0YZFTTH106181360
+无线ChinaNet-giHp
+密码523343732@QQ.com
+终端地址:192.168.1.1
+账号密码useradmin（96ksw）
+超管账号密码telecomadmin（telecomadmin35330157）
+
+
+ 
+
+telecomadmin
+nE7jA%5m
+5sC3hFGZNY
+
+useradmin
+mkakf
+057481875730
+818071
+OYZFTTH210484728
+方糖推送SCT209890Tuo1Ucdr4tvbXEd9hxRLFonJ3
+
+openfile("../../../userconfig/cfg",false)
+
+
+
+steam账号
+
+devil19921017
+Hxt199210172010
+
+he19921017sky
+open88415470
+
+
+QQ：
+1273104450 (open88415470)
+523343732 (Hxt199210172010)
+906901572 (0574hexiaofang)
+554912612（057413185959090）
+1165041582
+Ack(503035372)
+艹丶随风而来 
+
+vi /etc/config/uhttpd
+/etc/init.d/uhttpd restart
+
+
+重启防火墙 /etc/init.d/firewall restart
+
+config zone                  
+        option name 'wan'     
+        option input 'ACCEPT'  
+        option output 'ACCEPT'
+        option masq '1'       
+        option mtu_fix '1'     
+        option forward 'ACCEPT'
+
+安装Ubuntu和扩容镜像
+
+进入系统目标盘符根目录
+cd /mnt/盘符
+
+#解压
+gzip -kd istoreos-21.02.3-2022121613-x86-64-squashfs-combined-efi.img.gz
+
+#改名
+mv istoreos-21.02.3-2022121613-x86-64-squashfs-combined-efi.img istoreos-efi.img 
+
+#扩容2G
+dd if=/dev/zero bs=1M count=2048 >> istore.img
+
+parted istore.img
+
+print
+
+resizepart 3 100%（3代表要扩容的分区）
+
+print
+
+quit
+
+onething1/wxedge:latest
+jellyfin/jellyfin:latest
+Jellyfin
+TZ=Asia/Shanghai
+/mnt/sata4-d/Jellyfin/cache:/cache
+/mnt/sata4-d/Jellyfin/config:/config
+/mnt/sata4-d/Jellyfin/mediaMM:/media1
+/mnt/sata5-e/mediaTV:/media2
+/mnt/sata6-f/mediaSEX:/media3
+
+不同于标准linux主机,openwrt使用dnsmasq来管理dns和dhcp. 
+修改dnsmasq的配置文件
+
+vi /etc/config/dhcp
+
+在config dnsmasq这组下面添加
+
+list addnhosts '/etc/hosts' 
+
+这样就可以把/etc/hosts文件当成host文件来试用了,
+
+修改完需要service restart dnsmasq
+
+vi /etc/hosts
+
+13.224.167.74 api.themoviedb.org
+65.8.11.120 api.themoviedb.org
+169.150.207.217 api.themoviedb.org
+13.225.142.15 api.themoviedb.org
+54.192.18.39 api.themoviedb.org
+
+143.244.49.177 image.tmdb.org
+143.244.50.210 image.tmdb.org
+18.154.144.63 image.tmdb.org
+89.187.162.242 image.tmdb.org
+169.150.207.216 image.tmdb.org
+
+service iptables restart
+option input 'ACCEPT'
+查询nas支持硬件解码
+ls /dev/dri
+
+Sumba
+
+获取所有权限
+chmod 777 -R /mnt/sata1-4
+chmod 777 -R /mnt/sata1-4/Jellyfin
+chmod 777 -R /mnt/sata1-4/Jellyfin/config
+chmod 777 -R /mnt/sata1-4/Jellyfin/cache
+
+
+断开所有sumba共享用户连接
+net use * /del /y
+
+
