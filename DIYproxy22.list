@@ -12,6 +12,7 @@ DOMAIN-KEYWORD,missav
 DOMAIN-KEYWORD,xn--4gqx1hgtfdmt
 DOMAIN-KEYWORD,keeflys
 DOMAIN-KEYWORD,surfsharkdns
+DOMAIN-KEYWORD,cloudflare
 
 # 域名后缀匹配
 DOMAIN-SUFFIX,ipip.net
@@ -28,6 +29,7 @@ DOMAIN-SUFFIX,edns.ip-api.com
 DOMAIN-SUFFIX,ip-api.com
 DOMAIN-SUFFIX,thomass.qzz.io
 DOMAIN-SUFFIX,thomass.dpdns.org
+DOMAIN-SUFFIX,cloudflare.com
 
 # 全域名匹配
 DOMAIN,myip.ipip.net
@@ -42,6 +44,7 @@ DOMAIN,typecho.thomass.qzz.io
 # ip段匹配
 # IP-CIDR,1.0.0.1/32
 # IP-CIDR,1.1.1.1/32
+
 
 
 
