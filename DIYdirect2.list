@@ -14,6 +14,8 @@ DOMAIN-SUFFIX,sjd45.com
 
 # 全域名匹配
 DOMAIN,tagss04.pro
+DOMAIN,mysunpanel.thomass.qzz.io
+DOMAIN,typecho.thomass.qzz.io
 
 # 网飞猫视频解析全域名匹配
 DOMAIN-KEYWORD,ffzy-online
