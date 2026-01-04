@@ -12,7 +12,7 @@ DOMAIN-KEYWORD,missav
 DOMAIN-KEYWORD,xn--4gqx1hgtfdmt
 DOMAIN-KEYWORD,keeflys
 DOMAIN-KEYWORD,surfsharkdns
-DOMAIN-KEYWORD,cloudflare
+DOMAIN-KEYWORD,clashverge
 
 # 域名后缀匹配
 DOMAIN-SUFFIX,ipip.net
@@ -20,15 +20,12 @@ DOMAIN-SUFFIX,ipleak.net
 DOMAIN-SUFFIX,ipcheck.ing
 DOMAIN-SUFFIX,ipify.org
 DOMAIN-SUFFIX,openwrt.ai
-DOMAIN-SUFFIX,missav.ws
 DOMAIN-SUFFIX,xn--4gqx1hgtfdmt.com
 DOMAIN-SUFFIX,downloadhelper.net
 DOMAIN-SUFFIX,keeflys.com
 DOMAIN-SUFFIX,surfsharkdns.com
 DOMAIN-SUFFIX,edns.ip-api.com
 DOMAIN-SUFFIX,ip-api.com
-DOMAIN-SUFFIX,thomass.qzz.io
-DOMAIN-SUFFIX,thomass.dpdns.org
 DOMAIN-SUFFIX,cloudflare.com
 
 # 全域名匹配
@@ -36,14 +33,14 @@ DOMAIN,myip.ipip.net
 DOMAIN,one.one.one.one
 DOMAIN,www.ganjingworld.com
 DOMAIN,dl.openwrt.ai
-DOMAIN,missav.ws
 DOMAIN,xn--4gqx1hgtfdmt.com
 DOMAIN,downloadhelper.net
-DOMAIN,typecho.thomass.qzz.io
+DOMAIN,www.clashverge.dev
 
 # ip段匹配
 # IP-CIDR,1.0.0.1/32
 # IP-CIDR,1.1.1.1/32
+
 
 
 
