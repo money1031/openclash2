@@ -11,11 +11,15 @@ DOMAIN-SUFFIX,kkwan.top
 DOMAIN-SUFFIX,8c0bd2d20159.com
 DOMAIN-SUFFIX,91jq7.jqjq325.xyz
 DOMAIN-SUFFIX,sjd45.com
+DOMAIN-SUFFIX,cloudflare.com
 
 # 全域名匹配
 DOMAIN,tagss04.pro
 DOMAIN,mysunpanel.thomass.qzz.io
 DOMAIN,typecho.thomass.qzz.io
+DOMAIN,devil.nbymjx.dpdns.org
+DOMAIN,edge.thomass.dpdns.org
+DOMAIN,nbyx.qzz.io
 
 # 网飞猫视频解析全域名匹配
 DOMAIN-KEYWORD,ffzy-online
