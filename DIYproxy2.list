@@ -4,7 +4,6 @@ DOMAIN-KEYWORD,ipip
 DOMAIN-KEYWORD,ipleak
 DOMAIN-KEYWORD,ipcheck
 DOMAIN-KEYWORD,upai
-DOMAIN-KEYWORD,cloudflare
 DOMAIN-KEYWORD,qualified
 DOMAIN-KEYWORD,ganjingworld
 DOMAIN-KEYWORD,ganjing
@@ -26,11 +25,9 @@ DOMAIN-SUFFIX,keeflys.com
 DOMAIN-SUFFIX,surfsharkdns.com
 DOMAIN-SUFFIX,edns.ip-api.com
 DOMAIN-SUFFIX,ip-api.com
-DOMAIN-SUFFIX,cloudflare.com
 
 # 全域名匹配
 DOMAIN,myip.ipip.net
-DOMAIN,one.one.one.one
 DOMAIN,www.ganjingworld.com
 DOMAIN,dl.openwrt.ai
 DOMAIN,xn--4gqx1hgtfdmt.com
@@ -40,6 +37,7 @@ DOMAIN,www.clashverge.dev
 # ip段匹配
 # IP-CIDR,1.0.0.1/32
 # IP-CIDR,1.1.1.1/32
+
 
 
 
