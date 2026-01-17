@@ -9,8 +9,6 @@ DOMAIN-KEYWORD,ganjingworld
 DOMAIN-KEYWORD,ganjing
 DOMAIN-KEYWORD,missav
 DOMAIN-KEYWORD,xn--4gqx1hgtfdmt
-DOMAIN-KEYWORD,keeflys
-DOMAIN-KEYWORD,surfsharkdns
 DOMAIN-KEYWORD,clashverge
 
 # 域名后缀匹配
@@ -37,10 +35,3 @@ DOMAIN,www.clashverge.dev
 # ip段匹配
 # IP-CIDR,1.0.0.1/32
 # IP-CIDR,1.1.1.1/32
-
-
-
-
-
-
-
