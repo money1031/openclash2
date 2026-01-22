@@ -24,6 +24,7 @@ DOMAIN-SUFFIX,surfsharkdns.com
 DOMAIN-SUFFIX,edns.ip-api.com
 DOMAIN-SUFFIX,ip-api.com
 DOMAIN-SUFFIX,missav.ai
+DOMAIN-SUFFIX,surrit.com
 DOMAIN-SUFFIX,istatmenus.app
 
 # 全域名匹配
@@ -33,10 +34,12 @@ DOMAIN,dl.openwrt.ai
 DOMAIN,xn--4gqx1hgtfdmt.com
 DOMAIN,downloadhelper.net
 DOMAIN,www.clashverge.dev
+DOMAIN,surrit.com
 DOMAIN,ip-api.istatmenus.app
 
 # ip段匹配
 # IP-CIDR,1.0.0.1/32
 # IP-CIDR,1.1.1.1/32
+
 
 
