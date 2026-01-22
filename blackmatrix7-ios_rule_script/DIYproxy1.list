@@ -23,6 +23,7 @@ DOMAIN-SUFFIX,keeflys.com
 DOMAIN-SUFFIX,surfsharkdns.com
 DOMAIN-SUFFIX,edns.ip-api.com
 DOMAIN-SUFFIX,ip-api.com
+DOMAIN-SUFFIX,missav.ai
 DOMAIN-SUFFIX,istatmenus.app
 
 # 全域名匹配
@@ -37,4 +38,5 @@ DOMAIN,ip-api.istatmenus.app
 # ip段匹配
 # IP-CIDR,1.0.0.1/32
 # IP-CIDR,1.1.1.1/32
+
 
