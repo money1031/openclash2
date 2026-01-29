@@ -12,6 +12,7 @@ DOMAIN-KEYWORD,surrit
 DOMAIN-KEYWORD,xn--4gqx1hgtfdmt
 DOMAIN-KEYWORD,clashverge
 DOMAIN-KEYWORD,cmliussss
+DOMAIN-KEYWORD,speedtest
 
 # 域名后缀匹配
 DOMAIN-SUFFIX,ipip.net
@@ -48,6 +49,7 @@ DOMAIN,api.ipapi.cmliussss.net
 # ip段匹配
 # IP-CIDR,1.0.0.1/32
 # IP-CIDR,1.1.1.1/32
+
 
 
 
