@@ -10,6 +10,7 @@ DOMAIN-KEYWORD,ganjing
 DOMAIN-KEYWORD,missav
 DOMAIN-KEYWORD,xn--4gqx1hgtfdmt
 DOMAIN-KEYWORD,clashverge
+DOMAIN-KEYWORD,cmliussss
 
 # 域名后缀匹配
 DOMAIN-SUFFIX,ipip.net
@@ -39,10 +40,12 @@ DOMAIN,edge.thomass.dpdns.org
 DOMAIN,blog.cmliussss.com
 DOMAIN,liveuser.cmliussss.com
 DOMAIN,cf.090227.xyz
+DOMAIN,api.ipapi.cmliussss.net
 
 # ip段匹配
 # IP-CIDR,1.0.0.1/32
 # IP-CIDR,1.1.1.1/32
+
 
 
 
