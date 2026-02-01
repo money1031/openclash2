@@ -30,6 +30,7 @@ DOMAIN-SUFFIX,ip-api.com
 DOMAIN-SUFFIX,missav.ai
 DOMAIN-SUFFIX,surrit.com
 DOMAIN-SUFFIX,istatmenus.app
+DOMAIN-SUFFIX,ping0.cc
 
 # 全域名匹配
 DOMAIN,myip.ipip.net
@@ -44,3 +45,4 @@ DOMAIN,ip-api.istatmenus.app
 DOMAIN,blog.cmliussss.com
 DOMAIN,cf.090227.xyz
 DOMAIN,api.ipapi.cmliussss.net
+
